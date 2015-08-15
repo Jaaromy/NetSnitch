@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="NetSnitch" Height="500" Width="550" WindowStartupLocation="CenterScreen">
    <Grid>
-      <RichTextBox x:Name="richTextBox" Margin="10">
+      <RichTextBox x:Name="richTextBox" Margin="10" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
          <FlowDocument>
             <Paragraph>
                <Run Text="Hello World"/>
