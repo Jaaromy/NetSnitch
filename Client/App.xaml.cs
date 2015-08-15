@@ -4,7 +4,7 @@ namespace Client
 {
 	/// <summary>
 	/// Interaction logic for App.xaml
-	/// </summary>B
+	/// </summary>
 	public partial class App
 	{
 	}
