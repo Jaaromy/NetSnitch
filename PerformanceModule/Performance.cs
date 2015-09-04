@@ -21,7 +21,10 @@ namespace PerformanceModule
 			// prior to executing the application that uses the counters. 
 			// Execute this sample a second time to use the category. 
 			if (SetupCategory())
-				return;
+			{
+				Console.WriteLine("Creating Category...");
+				Thread.Sleep(1000);
+			}
 			CreateCounters();
 			CollectSamples(samplesList);
 			CalculateResults(samplesList);
